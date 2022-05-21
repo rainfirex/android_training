@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="26dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main activity" />
+
+    <FrameLayout
+        android:id="@+id/frameBlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnShowListTree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List tree" />
+
+    <Button
+        android:id="@+id/btnShowServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services" />
+    <Button
+        android:id="@+id/btnShowServicesBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services broadcast" />
+    <Button
+        android:id="@+id/btnShowServicesBind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services bind" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnNotifiService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:text="Notification"/>
+        <Button
+            android:id="@+id/btnBase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="base"/>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/myListFragment"
+            android:name="com.sakhhome.lession.fragments.MyListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="12dp"
+            android:contentDescription="@string/submit"
+            android:src="@drawable/ic_launcher_foreground" />
+    </FrameLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        app:menu="@menu/navigation_drawer"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content" />
+
+
+
+</LinearLayout>

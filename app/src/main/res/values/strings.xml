@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">sakhhome</string>
+    <string name="app_menu_setting">Settings</string>
+    <string name="app_menu_about">About</string>
+    <string name="app_menu_site">Site</string>
+    <string name="app_menu_list">ListView</string>
+    <string name="app_menu_list_obj">ListObject</string>
+    <string name="app_menu_list_chose">List Chose</string>
+    <string name="app_menu_list_multi_chose">List MultiChose</string>
+    <string name="app_menu_list_simple_adaptor">List Simple adaptor</string>
+    <string name="app_menu_binder_list">Binder list</string>
+    <string name="app_menu_spinner">Spinner</string>
+    <string name="app_menu_save_state">Save state</string>
+    <string name="app_menu_preferences">Preferences</string>
+
+    <string name="about_name">Alex</string>
+    <string name="about_email">rainfire491@gmail.com</string>
+    <string name="about_phone">8962-123-09-10</string>
+    <string name="app_start_service">start service</string>
+    <string name="app_stop_service">stop_service</string>
+    <string name="submit">+</string>
+    <string name="btn_add_vehicle">Добавить автомобиль</string>
+    <string name="btn_select_vehicle">Выбрать автомобиль</string>
+</resources>

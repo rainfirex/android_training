@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="1"
+        android:title="@string/app_menu_setting"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="2"
+        android:title="@string/app_menu_about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/site"
+        android:orderInCategory="0"
+        android:title="@string/app_menu_site"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/list"
+        android:orderInCategory="3"
+        android:title="@string/app_menu_list"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/listObject"
+        android:orderInCategory="4"
+        android:title="@string/app_menu_list_obj"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/listChose"
+        android:orderInCategory="4"
+        android:title="@string/app_menu_list_chose"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/listMultiChose"
+        android:orderInCategory="4"
+        android:title="@string/app_menu_list_multi_chose"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/listSimpleAdaptor"
+        android:orderInCategory="4"
+        android:title="@string/app_menu_list_simple_adaptor"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/binderList"
+        android:orderInCategory="4"
+        android:title="@string/app_menu_binder_list"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/spinner"
+        android:orderInCategory="4"
+        android:title="@string/app_menu_spinner"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/saveStateCount"
+        android:orderInCategory="4"
+        android:title="@string/app_menu_save_state"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mnuPreferences"
+        android:orderInCategory="4"
+        android:title="@string/app_menu_preferences"
+        app:showAsAction="never" />
+</menu>
